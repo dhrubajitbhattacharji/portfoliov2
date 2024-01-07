@@ -3,6 +3,7 @@
 import AboutText from "@/components/aboutText";
 import Bio from "@/components/bio";
 import Divider from "@/components/divider";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Bio/>
       <Divider/>
       <AboutText/>
+      <Projects/>
+      
     </main>
   )
 }
