@@ -13,7 +13,7 @@ import pfp from "@/public/pfpic2.jpg"
 
 export default function Bio() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
       <div className="flex flex-col items-center justify-center sm:flex-row sm:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
