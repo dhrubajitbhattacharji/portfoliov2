@@ -49,7 +49,7 @@ export default function Bio() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi there 👋 I'm
+        Hi there 👋 I am
         <span className="font-bold"> Dhruv. </span> A{" "}
         <span className="font-bold">Software Engineer</span> building and{" "}
         <span className="italic">contributing</span> to cool projects with a special interest in{" "}

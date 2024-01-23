@@ -17,7 +17,7 @@ export default function AboutText() {
     >
       <SectionHeading>Before you scoll down👇</SectionHeading>
       <p className="mb-3">
-        I'm a Computer Science and Engineering undergrad(2020-'24) student, I
+        I am a Computer Science and Engineering undergrad(2020-24) student, I
         started development in 2021 to make a{" "}
         <span className="font-medium">Javascript </span>game for a hackathon in
         my college. I liked it and quickly picked up React. Slowly teaching
@@ -43,7 +43,7 @@ export default function AboutText() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I am not coding</span>, I enjoy playing
         video games, watching movies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about <span className="font-medium">Machine Learning </span>and{" "}
