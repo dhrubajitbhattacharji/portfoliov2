@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import SectionHeading from "./sectionHeading";
+import SectionHeading from "./section-heading";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function AboutText() {
+  // const { ref } = useSectionInView("About", 0.5);
+
   return (
     <motion.section
       // ref={ref}
@@ -10,7 +13,7 @@ export default function AboutText() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
-      id="about"
+      // id="about"
     >
       <SectionHeading>Before you scoll down👇</SectionHeading>
       <p className="mb-3">
@@ -22,7 +25,7 @@ export default function AboutText() {
         <span className="font-medium">Express</span>{" "}
         <span className="font-medium"></span>. My
         <span className="italic"> favorite part of programming</span> is the
-        problem-solving aspect. I 💚<span className="underline">love</span> the
+        problem-solving aspect. I 💚love the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">

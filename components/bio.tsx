@@ -7,13 +7,15 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import pfp from "@/public/pfpic2.jpg"
-// import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/lib/hooks";
 // import { useActiveSectionContext } from "@/context/active-section-context";
 
 
 export default function Bio() {
+  const { ref } = useSectionInView("Home", 0.5);
   return (
-    <section id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section id="home" ref={ref}
+    className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
       <div className="flex flex-col items-center justify-center sm:flex-row sm:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
@@ -24,9 +26,8 @@ export default function Bio() {
           }}
         >
           <Image
-            // src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
             src={pfp}
-            alt="Ricardo portrait"
+            alt="Dhrubajit Bhattcharjee"
             width="195"
             height="195"
             quality="95"

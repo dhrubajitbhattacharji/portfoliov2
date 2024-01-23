@@ -3,7 +3,9 @@
 import AboutText from "@/components/aboutText";
 import Bio from "@/components/bio";
 import Divider from "@/components/divider";
+import Experience from "@/components/experience";
 import Projects from "@/components/projects";
+import Skills from "@/components/skills";
 
 export default function Home() {
   return (
@@ -11,7 +13,11 @@ export default function Home() {
       <Bio/>
       <Divider/>
       <AboutText/>
+      <Skills/>
+      <Experience />
       <Projects/>
+      
+
       
     </main>
   )

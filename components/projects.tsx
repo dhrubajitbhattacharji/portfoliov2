@@ -1,17 +1,20 @@
 import React from "react";
-import SectionHeading from "./sectionHeading";
+import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
+import { useSectionInView } from "@/lib/hooks";
 import Image from "next/image";
 // import Divider from "./divider";
 
 export default function Projects() {
+  const { ref } = useSectionInView("Projects", 0.5);
+
   return (
-    <section id="projects" className="scroll-mt-28">
+    <section ref={ref} id="projects" className="scroll-mt-28">
       <SectionHeading>My Projects 💎</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <>
-            <ProjectCards {...project} />
+            <ProjectCards key={index} {...project} />
           </>
         ))}
       </div>
