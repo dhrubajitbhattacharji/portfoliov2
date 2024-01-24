@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
+import Link from "next/link";
 
 export default function AboutText() {
   // const { ref } = useSectionInView("About", 0.5);
@@ -39,7 +40,7 @@ export default function AboutText() {
         <span className="font-medium">Containers</span>. Learning Technologies and building stuff with it
         always excites me. I am currently working as a{" "}
         <span className="font-medium">FullStack Development Intern</span> at a{" "}
-        <span className="font-medium underline">Startup.</span>
+        <Link href="#experience"> <span className="font-medium underline">Startup.</span></Link>
       </p>
 
       <p>
@@ -49,6 +50,11 @@ export default function AboutText() {
         learning about <span className="font-medium">Machine Learning </span>and{" "}
         <span className="font-medium">AI.</span> Check out my projects below
         that I enjoyed building very much.
+      </p>
+
+      <p>
+        <span className="">If you have any queries, or want to hire me kindly drop a mail at</span>{" "}
+        <span className="italic">dhrubajitbhattacharji@gmail.com</span> ✌️ 
       </p>
     </motion.section>
   );
