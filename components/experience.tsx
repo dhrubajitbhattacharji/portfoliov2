@@ -21,11 +21,11 @@ export default function Experience() {
       <SectionHeading>Experience 💼</SectionHeading>
       <p className="mb-3">
         I currently(2022 - June, 2024) work as a FullStack Developement Intern at{" "}
-        <Link href="https://www.geogo.in/"><span className="font-medium underline">Geogo Techsolutions</span></Link>. 
+        <Link target="_blank" href="https://www.geogo.in/"><span className="font-medium underline">Geogo Techsolutions</span></Link>. 
         I have been working with <span className="italic font-medium">ReactJs</span> for more than a year now.{" "}
         I have hands-on experience with backend Technologies like <span className="font-medium">NodeJs</span>{" "}
         , <span className="font-medium">Express</span>, <span className="font-medium">MongoDb</span> and <span className="font-medium">Postgres</span>{". "}
-       Also currently(2020 - June, 2024) a CS Engineering student at <Link href="https://www.skf.edu.in/"><span className="underline font-medium">Supreme Knowledge Foundation Group of Institutions</span></Link>{" "}
+       Also currently(2020 - June, 2024) a CS Engineering student at <Link target="_blank" href="https://www.skf.edu.in/"><span className="underline font-medium">Supreme Knowledge Foundation Group of Institutions</span></Link>{" "}
       </p>
     </motion.section>
   );

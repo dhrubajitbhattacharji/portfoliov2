@@ -2,9 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import pfp from "@/public/pfpic2.jpg"
 import { useSectionInView } from "@/lib/hooks";
@@ -49,11 +47,10 @@ export default function Bio() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi there 👋 I am
-        <span className="font-bold"> Dhruv. </span> A{" "}
+        Hi there 👋 I&apos;m a{" "}
         <span className="font-bold">Software Engineer</span> building and{" "}
         <span className="italic">contributing</span> to cool projects with a special interest in{" "}
-        <span className="underline italic"> Backend Development</span> and{" "}
+        <span className="underline italic"> Backend</span> and{" "}
         <span className="underline italic">AI</span>.
       </motion.h1>
 
@@ -65,25 +62,13 @@ export default function Bio() {
           delay: 0.1,
         }}
       >
-        <Link
-          href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-        //   onClick={() => {
-        //     setActiveSection("Contact");
-        //     setTimeOfLastClick(Date.now());
-        //   }}
-        >
-          Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
-
         <a
           className="group !bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
           Download my CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <BsArrowRight className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a

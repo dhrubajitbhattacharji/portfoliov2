@@ -54,7 +54,7 @@ export default function AboutText() {
 
       <p>
         <span className="">If you have any queries, or want to hire me kindly drop a mail at</span>{" "}
-        <span className="italic">dhrubajitbhattacharji@gmail.com</span> ✌️ 
+        <span className="italic font-medium">dhrubajitbhattacharji@gmail.com</span> ✌️ 
       </p>
     </motion.section>
   );
