@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28">
       <SectionHeading>My Projects 💎</SectionHeading>
-      <div>
+      <div className="flex justify-center sm:grid grid-rows-2 grid-flow-col gap-5">
         {projectsData.map((project, index) => (
           <>
             <ProjectCards key={index} {...project} />
@@ -26,7 +26,7 @@ type projectProps = (typeof projectsData)[number];
 
 function ProjectCards({ title, description, tags, imageUrl }: projectProps) {
   return (
-    <section className="rounded-lg relative bg-white md:bg-gradient-to-r from-white via-gray-200 to-gray-200 max-w-[40rem] overflow-hidden sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 transition">
+    <section className="rounded-lg relative bg-white md:bg-gradient-to-r from-white via-gray-200 to-gray-200 max-w-[30rem] overflow-hidden sm:pr-8 sm:h-[20rem] mb-3 sm:mb-8 transition">
       <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
 
         <h3 className="text-2xl font-semibold">{title}</h3>
