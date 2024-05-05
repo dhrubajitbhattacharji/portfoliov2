@@ -23,7 +23,7 @@ export default function Experience() {
         I currently work as a <span className="font-medium">Software Engineer(SWE)</span> at{" "}
         <Link target="_blank" href="https://www.geogo.in/"><span className="font-medium">Geogo Techsolutions</span></Link>. 
         I have worked at 3 projects as of now. I&apos;ve mostly worked with Node and React to build end to end features.
-        Currently I&apos;m work alongside with the ML team on <Link target="_blank" href="https://www.geogo.in/"><span className="font-medium">Kriyam.ai</span></Link>, our own product.
+        Currently I&apos;m work alongside with the ML team on <Link target="_blank" href="https://www.kriyam.ai/"><span className="font-medium">Kriyam.ai</span></Link>, our own product.
       </p>
     </motion.section>
   );
