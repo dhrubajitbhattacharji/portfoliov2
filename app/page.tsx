@@ -12,7 +12,7 @@ import ActiveSectionContextProvider from "@/context/active-section-context";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200 text-gray-950 relative pt-28 sm:pt-36 pb-1">
+    <main className="absolute inset-0 h-full w-full bg-gray-100	 bg-[radial-gradient(#e5e7eb_1.5px,transparent_1px)] [background-size:16px_16px] text-gray-950 relative pt-28 sm:pt-36 pb-1">
     <ActiveSectionContextProvider>
       <Header />  
       <div className="flex flex-col items-center px-4">

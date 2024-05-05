@@ -15,38 +15,18 @@ export default function AboutText() {
     >
       <SectionHeading>Before you scoll down👇</SectionHeading>
       <p className="mb-3">
-        I am a Computer Science and Engineering undergrad(2020-24) student, I
-        started development in 2021 to make a{" "}
-        <span className="font-medium">Javascript </span>game for a hackathon in
-        my college. I liked it and quickly picked up React. Slowly teaching
-        myself backend with <span className="font-medium">NodeJs</span> and{" "}
-        <span className="font-medium">Express</span>{" "}
-        <span className="font-medium"></span>. My
-        <span className="italic"> favorite part of programming</span> is the
-        problem-solving aspect. I 💚love the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with{" "}
-        <span className="font-medium">TypeScript</span>,{" "}
-        <span className="font-medium">Graphql</span>,{" "}
-        <span className="font-medium">Postgres</span>,{" "}
-        <span className="font-medium">Redis</span> and{" "}
-        <span className="font-medium">Containers</span>. Learning Technologies and building stuff with it
-        always excites me. I am currently working as a{" "}
-        <span className="font-medium">FullStack Development Intern</span> at a{" "}
-        <Link href="#experience"> <span className="font-medium underline">Startup.</span></Link>
+       I graduated in July, 2024 with a Bachelor&apos;s degree in Computer Science and Engineering. I love building and contributing to softwares that have a <span className="font-medium">mission/cause to improve the world and our lives</span>. 
+      I have been writing code for development since 2021, a year later I joined a startup (where I currently work) as an Intern and got introduced to the art of shipping softwares. 
       </p>
-
       <p>
-        <span className="italic">When I am not coding</span>, I enjoy playing
-        video games, watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">Machine Learning </span>and{" "}
-        <span className="font-medium">AI.</span> Check out my projects below
-        that I enjoyed building very much.
+        My primary tech stack includes{" "}
+        <span className="font-medium">TypeScript</span>,{" "}
+        <span className="font-medium">Node</span>,{" "}
+        <span className="font-medium">Express</span>,{" "}
+        <span className="font-medium">React</span>,{" "}
+        <span className="font-medium">Postgres</span>. 
+        I&apos;m very familar with CI/CD and standard Deployments practices(eg. Docker).
+        I&apos;m currently learning RAG and LLMs for a project. I&apos;ve some interest in Machine Learning as well but I&apos;m taking it slow right now as it is a hobby.{" "}
       </p>
 
       <p>

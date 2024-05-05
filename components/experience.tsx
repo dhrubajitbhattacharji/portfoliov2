@@ -20,12 +20,10 @@ export default function Experience() {
     >
       <SectionHeading>Experience 💼</SectionHeading>
       <p className="mb-3">
-        I currently(2022 - June, 2024) work as a FullStack Developement Intern at{" "}
-        <Link target="_blank" href="https://www.geogo.in/"><span className="font-medium underline">Geogo Techsolutions</span></Link>. 
-        I have been working with <span className="italic font-medium">ReactJs</span> for more than a year now.{" "}
-        I have hands-on experience with backend Technologies like <span className="font-medium">NodeJs</span>{" "}
-        , <span className="font-medium">Express</span>, <span className="font-medium">MongoDb</span> and <span className="font-medium">Postgres</span>{". "}
-       Also currently(2020 - June, 2024) a CS Engineering student at <Link target="_blank" href="https://www.skf.edu.in/"><span className="underline font-medium">Supreme Knowledge Foundation Group of Institutions</span></Link>{" "}
+        I currently work as a <span className="font-medium">Software Engineer(SWE)</span> at{" "}
+        <Link target="_blank" href="https://www.geogo.in/"><span className="font-medium">Geogo Techsolutions</span></Link>. 
+        I have worked at 3 projects as of now. I&apos;ve mostly worked with Node and React to build end to end features.
+        Currently I&apos;m work alongside with the ML team on <Link target="_blank" href="https://www.geogo.in/"><span className="font-medium">Kriyam.ai</span></Link>, our own product.
       </p>
     </motion.section>
   );
