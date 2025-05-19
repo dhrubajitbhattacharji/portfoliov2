@@ -28,7 +28,7 @@ export default function Skills() {
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
-      <SectionHeading>My skills 🛠️</SectionHeading>
+      <SectionHeading>🛠️</SectionHeading>
       {/* <p className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28">
         I have worked with these Technologies over the years in different 
         projects and the use of the these tech were usecase specific.

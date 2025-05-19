@@ -20,7 +20,7 @@ export default function Home() {
       <Divider/>
       <AboutText/>
       <Skills/>
-      <Experience />
+      {/* <Experience /> */}
       </div>
       <Projects/>
       <Footer/>
