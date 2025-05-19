@@ -1,23 +1,8 @@
 "use client";
 import SectionHeading from "./section-heading";
-// import Image from "next/image";
-// import { projectsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-// import pic2 from "@/public/arc.png";
 import React from "react";
-// import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 
-// const Skeleton = () => (
-//   <div className="flex flex-1 w-full h-full min-h-[6rem] bg-gradient-to-br from-neutral-200 to-neutral-100">
-//     <Image
-//       src={pic2}
-//       alt="Dhrubajit Bhattcharjee"
-//       quality="95"
-//       priority={true}
-//       className=""
-//     />
-//   </div>
-// );
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
