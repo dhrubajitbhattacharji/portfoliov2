@@ -14,13 +14,13 @@ export default function AboutText() {
     >
       {/* <SectionHeading>Before you scoll down👇</SectionHeading> */}
       <p className="mb-3 text-wrap text-center">
-        I'm a Software Engineer with a passion for building intelligent systems
+        I&apos;m a Software Engineer with a passion for building intelligent systems
         and scalable infrastructure. Currently part of the R&D team at GEOGO
         Techsolutions, I work at the intersection of Machine Learning and
         Software Engineering — designing applications, managing robust data
         pipelines, and handling end-to-end deployments for ML-driven solutions.
         With a strong foundation in backend development and a deep interest in
-        data-centric systems. Actively looking for opportunities :)
+        data-centric systems. Actively looking for opportunities. 
       </p>
 
       <p>

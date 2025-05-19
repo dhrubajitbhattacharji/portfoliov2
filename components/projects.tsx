@@ -53,7 +53,7 @@ export default function Projects() {
               </svg>
             </div>
             <p className="text-sm">
-              I built a Retrieval Augmented Generation (RAG) system from scratch
+              I built a Retrieval Augmented Generation RAG system from scratch
               using a custom dataset from Kaggle and created a Gradio dashboard
               for metrics visualization.
             </p>
@@ -90,19 +90,18 @@ export default function Projects() {
               </svg>
             </div>
             <p className="text-sm">
-              A full-stack web application(on-going) that uses the Evo2 large
+              A full-stack web application that uses the Evo2 large
               language model to predict the pathogenicity of single nucleotide
               variants (SNVs) in human genes, allowing users to explore genome
               assemblies, search genes, input or select mutations, and compare
-              AI predictions with ClinVar classifications. [Python, FastAPI,
-              Modal, NextJs]
+              AI predictions with ClinVar classifications. Actively working on it.
             </p>
             <p className="text-xs font-bold mt-2">
               [Python, Numpy, Pandas, Matplotlib]
             </p>
           </div>
         </a>
-<div>I'm working on some more stuff I'll be adding soon!</div>
+<div>I'm working on some more stuff I&apos;ll be adding soon!</div>
       </div>
     </section>
   );
