@@ -101,7 +101,7 @@ export default function Projects() {
             </p>
           </div>
         </a>
-<div>I'm working on some more stuff I&apos;ll be adding soon!</div>
+<div>I&apos;m working on some more stuff I&apos;ll be adding soon!</div>
       </div>
     </section>
   );
